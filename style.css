@@ -1,0 +1,71 @@
+:root {
+    --primary: #000080;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+
+body {
+    overflow: hidden;
+    font-family: 'Multi', sans-serif;
+    font-weight: 300;
+}
+
+
+form {
+    margin-left: 2.5%;
+    color: black;
+}
+
+
+.bg-primary { background-color: var(--primary) !important; }
+
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+
+.btn-search {
+    right: 0;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+
+#sidebar-container .logo {
+     padding: .875rem 1.25rem;
+}
+
+
+#sidebar-container .menu {
+    width: 15rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #B0C4DE;
+}
+
+
+div .content {
+    color: 	black;
+}
+
+
+div .form-control {
+    margin-right: 80px;
+}
+
+#dropdown :hover {
+    text-decoration: none;
+    color: black;
+}
